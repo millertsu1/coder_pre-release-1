@@ -73,7 +73,7 @@ html {
 
 /*Banner Styles */
 .main {
-  background-image: url(../images/Animated\ Shape.svg);
+  background-color: #1e5128;
 }
 .container {
   display: flex;
@@ -270,7 +270,7 @@ html {
 
 /* ============Styles Services Webpage============= */
 .us_services {
-  background-image: url(../images/bg_services.svg);
+  background-color: #1e5128;
   background-size: cover;
 }
 .container__services {
@@ -341,7 +341,7 @@ html {
 }
 /* ============Styles Contact Webpage============= */
 .contact {
-  background-image: url(../images/banner_contact.svg);
+  background-color: #4e9f3d
 }
 .contact__form {
   background-color: #4e9f3d;
@@ -377,7 +377,7 @@ textarea {
 /* ============Styles Teachers Webpage============= */
 .main__teachers,
 .courses__bg {
-  background-image: url(/images/teacher_bg.webp);
+  background-color: #1e5128
 }
 .text .teachers__title,
 .text .teachers__paragraph,
@@ -568,7 +568,7 @@ textarea {
 
   /*Banner Styles */
   .main {
-    background-image: url(/images/Animated\ Shape-svg.webp);
+    background-color: #1e5128;
     background-repeat: no-repeat;
     background-size: cover;
   }
