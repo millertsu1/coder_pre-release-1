@@ -73,7 +73,7 @@ html {
 
 /*Banner Styles */
 .main {
-  background-image: url(/images/Animated\ Shape-svg.webp);
+  background-image: url(../images/Animated\ Shape.svg);
 }
 .container {
   display: flex;
@@ -221,7 +221,7 @@ html {
 
 /*  ===============Ready Styles=============== */
 .ready {
-  background-image: url(/images/bg_menu.webp);
+  background-image: url(../images/bg_menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #1e5128;
@@ -270,7 +270,7 @@ html {
 
 /* ============Styles Services Webpage============= */
 .us_services {
-  background-image: url(/images/bg_services-svg.webp);
+  background-image: url(../images/bg_services.svg);
   background-size: cover;
 }
 .container__services {
@@ -341,7 +341,7 @@ html {
 }
 /* ============Styles Contact Webpage============= */
 .contact {
-  background-image: url(/images/banner_contact.webp);
+  background-image: url(../images/banner_contact.svg);
 }
 .contact__form {
   background-color: #4e9f3d;
