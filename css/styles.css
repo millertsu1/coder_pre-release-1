@@ -73,7 +73,7 @@ html {
 
 /*Banner Styles */
 .main {
-  background-image: url(/images/Animated\ Shape.svg);
+  background-image: url(/images/Animated\ Shape-svg.webp);
 }
 .container {
   display: flex;
@@ -221,7 +221,7 @@ html {
 
 /*  ===============Ready Styles=============== */
 .ready {
-  background-image: url(/images/bg_menu.svg);
+  background-image: url(/images/bg_menu.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #1e5128;
@@ -270,7 +270,7 @@ html {
 
 /* ============Styles Services Webpage============= */
 .us_services {
-  background-image: url(/images/bg_services.svg);
+  background-image: url(/images/bg_services-svg.webp);
   background-size: cover;
 }
 .container__services {
@@ -341,7 +341,7 @@ html {
 }
 /* ============Styles Contact Webpage============= */
 .contact {
-  background-image: url(/images/banner_contact.svg);
+  background-image: url(/images/banner_contact.webp);
 }
 .contact__form {
   background-color: #4e9f3d;
@@ -377,7 +377,7 @@ textarea {
 /* ============Styles Teachers Webpage============= */
 .main__teachers,
 .courses__bg {
-  background-image: url(/images/teacher_bg.svg);
+  background-image: url(/images/teacher_bg.webp);
 }
 .text .teachers__title,
 .text .teachers__paragraph,
@@ -568,7 +568,7 @@ textarea {
 
   /*Banner Styles */
   .main {
-    background-image: url(/images/Animated\ Shape.svg);
+    background-image: url(/images/Animated\ Shape-svg.webp);
     background-repeat: no-repeat;
     background-size: cover;
   }
