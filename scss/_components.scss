@@ -9,15 +9,17 @@
   background-color: variables.$palette-color1;
   border-radius: $border-radius;
   border: 1px solid variables.$palette-color2;
-  font-family: "Sniglet", cursive;
+  font-family: variables.$main-font;
   font-weight: bold;
   text-decoration: none;
   font-size: $font-size;
   cursor: pointer;
   margin: 40px 0;
+  transition: all .2s;
 
   &:hover {
     background-color: variables.$palette-color3;
     color: variables.$palette-color1;
+    border: 1px solid variables.$palette-color1;
   }
 }

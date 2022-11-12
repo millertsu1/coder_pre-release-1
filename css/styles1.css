@@ -120,12 +120,46 @@ html {
   font-size: 15px;
   cursor: pointer;
   margin: 40px 0;
+  transition: all 0.2s;
 }
 .btn:hover {
   background-color: #1e5128;
   color: #d8e9a8;
+  border: 1px solid #d8e9a8;
 }
 
-/*=============Courses Styles ===========*/
+/*===Courses Styles ===*/
+.courses {
+  background-color: #4e9f3d;
+}
+.courses .allcourses {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 50px 0;
+}
+.courses .courses__offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+}
+.courses .courses__offer h2 {
+  color: #191a19;
+  margin-bottom: 30px;
+  font-size: 36px;
+  text-align: center;
+}
+.courses .courses__offer .line {
+  width: 10%;
+  border: 3px solid #191a19;
+  margin-bottom: 50px;
+}
+.courses .courses__offer p {
+  margin-bottom: 50px;
+  line-height: 1.5;
+  text-align: center;
+}
 
 /*# sourceMappingURL=styles1.css.map */

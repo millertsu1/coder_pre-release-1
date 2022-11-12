@@ -1,5 +1,5 @@
-@use 'variables';
-@use  'components' as c;
+@use "variables";
+@use "components" as c;
 
 .header {
   background-color: variables.$palette-color1;
@@ -89,14 +89,48 @@
   }
 }
 .text__paragraph {
-    color: variables.$palette-color1;
-    margin-bottom: 50px;
-  }
-  .img__banner {
-    display: none;
-  }
-  .btn{
-    @include c.button(10px, 15px);
-  }
+  color: variables.$palette-color1;
+  margin-bottom: 50px;
+}
+.img__banner {
+  display: none;
+}
+.btn {
+  @include c.button(10px, 15px);
+}
 
-  /*=============Courses Styles ===========*/
+/*===Courses Styles ===*/
+.courses {
+  background-color: variables.$palette-color4;
+
+  .allcourses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 50px 0;
+  }
+  .courses__offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+
+    h2 {
+      color: variables.$palette-color2;
+      margin-bottom: 30px;
+      font-size: 36px;
+      text-align: center;
+    }
+    .line{
+      width: 10%;
+      border: 3px solid variables.$palette-color2;
+      margin-bottom: 50px;
+    }
+    p {
+      margin-bottom: 50px;
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+}

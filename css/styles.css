@@ -116,7 +116,7 @@
 
 /* ===============courses=================== */
 
-.courses {
+/* .courses {
   background-color:#4e9f3d;
 }
 
@@ -126,8 +126,8 @@
   justify-content: space-between;
   align-items: baseline;
  margin: 50px 0; 
-}
-.courses__offer {
+} */
+/* .courses__offer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,17 +138,17 @@
   margin-bottom: 30px;
   font-size: 36px;
   text-align: center;
-}
-.line {
+} */
+/* .line {
   width: 10%;
   border: 3px solid #191a19;
   margin-bottom: 50px;
-}
-.courses__offer p {
+} */
+/* .courses__offer p {
   margin-bottom: 50px;
   line-height: 1.5;
   text-align: center;
-}
+} */
 .paragraph1 {
   font-weight: bold;
 }
