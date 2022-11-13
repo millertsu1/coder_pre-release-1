@@ -149,17 +149,17 @@
   line-height: 1.5;
   text-align: center;
 } */
-.paragraph1 {
+/* .paragraph1 {
   font-weight: bold;
-}
+} */
 
-.courses__table1,
+/* .courses__table1,
 .courses__table2 {
   box-shadow: 0px 0px 5px #191a19;
   background-color: #1e5128;
   text-align: center;
-}
-.web {
+} */
+/* .web {
   display: flex;
   flex-direction: column;
   padding: 20px 40px;
@@ -178,14 +178,14 @@
 }
 .course__info {
   margin-bottom: 10px;
-}
+} */
 /* End Courses Styles */
 
 /* ================Services Styles================ */
-.services {
+/* .services {
   background-color: #1e5128;
-}
-.about__service {
+} */
+/* .about__service {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,71 +195,74 @@
 .about__service--text {
   line-height: 1.5;
   color: #d8e9a8;
-}
-.about__service--text h2 {
+} */
+/* .about__service--text h2 {
   font-size: 36px;
   margin-bottom: 30px;
-}
-.about__service--text hr {
+} */
+/* .about__service--text hr {
   margin: 0 auto;
   margin-bottom: 40px;
 }
 .about__service--text p {
   margin-bottom: 50px;
   line-height: 1.5;
-}
-.image__service img {
+} */
+/* .image__service img {
   width: 300px;
-}
+} */
 /* End Servises Styles */
 
 /*  ===============Ready Styles=============== */
-.ready {
+/* .ready {
   background-image: url(../images/bg_menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #1e5128;
-}
-.ready__section {
+} */
+/* .ready__section {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
   padding: 50px 0px;
   text-align: center;
-}
-.content__text h2 {
+} */
+/* .content__text h2 {
   font-size: 36px;
   margin-bottom: 20px;
   color: #d8e9a8;
-}
-.content__text p {
+} */
+/* .content__text p {
   margin-bottom: 40px;
   color: #d8e9a8;
-}
+} */
 /*  End Ready Styles */
 
 /* =============Footer styles============= */
-.footer__wrap {
+/* .footer{
+  background-color: #d8e9a8;
+} */
+/* .footer__wrap {
   display: flex;
   flex-direction: column;
-  background-color: #d8e9a8;
   color: #191a19;
   font-weight: bold;
   text-align: center;
   margin: 0;
-}
-.social {
+ 
+} */
+/* .social {
   display: flex;
   width: 100%;
   margin-top: 30px;
   justify-content: center;
-}
-.social img {
+} */
+/* .social img {
   width: 40px;
   height: 40px;
   margin: 0 10px;
-}
+} */
 /* End Footer styles */
 
 /* ============Styles Services Webpage============= */
@@ -431,19 +434,19 @@ textarea {
 
 @media (min-width: 768px) {
   /* ================Services Styles================ */
-  .nav {
+/*   .nav {
     top: 96px;
-  }
+  } */
 
-  .header .container {
+  /* .header .container {
     max-width: 768px;
   }
   .logo {
     width: 150px;
   }
-
+ */
   /* ========Courses Styles======== ========*/
-  .allcourses {
+/*   .allcourses {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30% 1fr;
@@ -456,18 +459,18 @@ textarea {
   }
   .courses__offer h2 {
     /* color: #191a19; */
-    margin-bottom: 20px;
+  /*   margin-bottom: 20px;
     font-size: 36px;
-  }
-
+  } */
+ 
   /* ================Services Styles================ */
 
-  .about__service--text p {
+/*   .about__service--text p {
     margin-bottom: 50px;
     line-height: 1.5;
     width: 700px;
   }
-
+ */
   /* ============Styles Services Webpage============= */
   .us_services{
     background-repeat: no-repeat;

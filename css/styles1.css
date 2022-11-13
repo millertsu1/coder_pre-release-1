@@ -8,15 +8,6 @@ html {
   font-family: "Sniglet", cursive;
 }
 
-/* -------------buttons------------- */
-.header {
-  background-color: #d8e9a8;
-  position: sticky;
-  top: 0;
-  border-bottom: 3px solid #191a19;
-  box-shadow: 2px 2px 5px #191a19;
-}
-
 .container {
   display: flex;
   justify-content: space-between;
@@ -26,23 +17,28 @@ html {
   margin-right: 10px;
 }
 
-.logo {
+/* -------------buttons------------- */
+.header {
+  background-color: #d8e9a8;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid #191a19;
+  box-shadow: 2px 2px 5px #191a19;
+}
+.header .logo {
   width: 100px;
 }
-
-#btn-menu {
+.header #btn-menu {
   display: none;
 }
-#btn-menu:checked ~ .nav {
+.header #btn-menu:checked ~ .nav {
   margin: 0;
 }
-
-.img-menu {
+.header .img-menu {
   display: block;
   width: 30px;
 }
-
-.nav {
+.header .nav {
   position: absolute;
   top: 67px;
   left: 0;
@@ -51,31 +47,30 @@ html {
   margin-left: -100%;
   transition: margin 0.3s;
 }
-.nav ul {
+.header .nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.nav li {
+.header .nav li {
   list-style: none;
   padding: 15px 0;
   border-bottom: 2px solid #191a19;
   width: 100%;
   text-align: center;
 }
-.nav li:hover {
+.header .nav li:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
-.nav li a {
+.header .nav li a {
   text-decoration: none;
   color: #1e5128;
   font-weight: bold;
 }
-.nav li a:hover {
+.header .nav li a:hover {
   color: #d8e9a8;
 }
-
-.selected {
+.header .selected {
   background-color: rgba(0, 0, 0, 0.2);
   color: #d8e9a8;
 }
@@ -84,29 +79,27 @@ html {
 .main {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1003%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(25%2c 26%2c 25%2c 1)'%3e%3c/rect%3e%3cpath d='M535.33 75.81 a111.03 111.03 0 1 0 222.06 0 a111.03 111.03 0 1 0 -222.06 0z' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M881.64 397.87 a117.76 117.76 0 1 0 235.52 0 a117.76 117.76 0 1 0 -235.52 0z' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M74.624%2c375.005C115.932%2c372.789%2c146.203%2c339.683%2c165.281%2c302.978C182.693%2c269.479%2c183.264%2c231.378%2c166.98%2c197.316C147.746%2c157.082%2c119.212%2c114.128%2c74.624%2c113.344C29.251%2c112.547%2c-1.809%2c154.124%2c-23.53%2c193.968C-44.093%2c231.686%2c-55.079%2c275.934%2c-34.603%2c313.699C-13.274%2c353.038%2c29.939%2c377.402%2c74.624%2c375.005' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M509.79 482.16 a123.99 123.99 0 1 0 247.98 0 a123.99 123.99 0 1 0 -247.98 0z' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M722.585%2c563.363C748.927%2c562.3%2c770.574%2c543.308%2c781.94%2c519.521C791.876%2c498.728%2c784.874%2c475.88%2c774.129%2c455.493C762.329%2c433.104%2c747.823%2c408.782%2c722.585%2c406.9C694.878%2c404.834%2c669.689%2c422.631%2c655.754%2c446.668C641.774%2c470.782%2c640.454%2c500.486%2c654.306%2c524.673C668.24%2c549.004%2c694.57%2c564.494%2c722.585%2c563.363' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M643.03 503.78 a106.93 106.93 0 1 0 213.86 0 a106.93 106.93 0 1 0 -213.86 0z' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M343.418%2c435.277C401.855%2c435.122%2c458.022%2c402.305%2c482.543%2c349.262C504.279%2c302.245%2c475.727%2c252.326%2c448.311%2c208.378C423.119%2c167.996%2c391.014%2c126.44%2c343.418%2c126.246C295.589%2c126.051%2c262.458%2c167.006%2c237.036%2c207.519C209.217%2c251.851%2c180.857%2c302.586%2c203.006%2c350.005C227.843%2c403.18%2c284.728%2c435.433%2c343.418%2c435.277' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-15.04 68.7 a107.52 107.52 0 1 0 215.04 0 a107.52 107.52 0 1 0 -215.04 0z' fill='rgba(30%2c 81%2c 40%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1003'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 }
-
-.text {
+.main .text {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 50px 0px;
   text-align: center;
 }
-.text h2 {
+.main .text h2 {
   color: #d8e9a8;
   font-size: 36px;
   margin-bottom: 40px;
 }
-
-.text__paragraph {
+.main .text .text__paragraph {
   color: #d8e9a8;
   margin-bottom: 50px;
 }
-
-.img__banner {
+.main .img__banner {
   display: none;
 }
 
+/* --------include mixins--------- */
 .btn {
   align-self: center;
   padding: 10px 25px;
@@ -139,27 +132,171 @@ html {
   align-items: baseline;
   margin: 50px 0;
 }
-.courses .courses__offer {
+.courses .allcourses .courses__offer {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0px auto;
 }
-.courses .courses__offer h2 {
+.courses .allcourses .courses__offer h2 {
   color: #191a19;
   margin-bottom: 30px;
   font-size: 36px;
   text-align: center;
 }
-.courses .courses__offer .line {
+.courses .allcourses .courses__offer .line {
   width: 10%;
   border: 3px solid #191a19;
   margin-bottom: 50px;
 }
-.courses .courses__offer p {
+.courses .allcourses .courses__offer p {
   margin-bottom: 50px;
   line-height: 1.5;
   text-align: center;
 }
+.courses .allcourses .courses__offer .paragraph1 {
+  font-weight: bold;
+}
+.courses .allcourses .courses__table1,
+.courses .allcourses .courses__table2 {
+  box-shadow: 0px 0px 5px #191a19;
+  background-color: #1e5128;
+  text-align: center;
+}
+.courses .allcourses .web {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  color: #d8e9a8;
+  border: 1px solid #d8e9a8;
+}
+.courses .allcourses .web .course__img img {
+  width: 50px;
+  height: 50px;
+  color: #d8e9a8;
+  margin: 10px 5px;
+}
+.courses .allcourses .web .course__img img .subtitle {
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+.courses .allcourses .web .course__img img .course__info {
+  margin-bottom: 10px;
+}
+
+/* ====Services Styles=== */
+.services {
+  background-color: #1e5128;
+}
+.services .about__service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.services .about__service--text {
+  line-height: 1.5;
+  color: #d8e9a8;
+}
+.services .about__service--text h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.services .about__service--text hr {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.services .about__service--text p {
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+.services .about__service .image__service img {
+  width: 300px;
+}
+
+/*  ===Ready Styles=== */
+.ready {
+  background-image: url(../images/bg_menu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1e5128;
+}
+.ready__section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0px;
+  text-align: center;
+}
+.ready .content__text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #d8e9a8;
+}
+.ready p {
+  margin-bottom: 40px;
+  color: #d8e9a8;
+}
+
+/* ===Footer styles=== */
+.footer {
+  background-color: #d8e9a8;
+}
+.footer .footer__wrap {
+  display: flex;
+  flex-direction: column;
+  color: #191a19;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.footer .footer__wrap .social {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+.footer .footer__wrap .social img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+/* ====Tablet Layout=== */
+@media (min-width: 768px) {
+  .header .container {
+    max-width: 768px;
+  }
+  .header .container .logo {
+    width: 150px;
+  }
+  .header .container .nav {
+    top: 96px;
+  }
+  /* ===Courses Styles===*/
+  .allcourses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 1fr;
+    justify-content: center;
+  }
+  .allcourses .courses__offer {
+    grid-column: span 2;
+    margin: 30px 0;
+    padding-bottom: 100px;
+  }
+  .allcourses .courses__offer h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  .allcourses .courses__table1,
+.allcourses .courses__table2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ====Desktop Layout=== */
 
 /*# sourceMappingURL=styles1.css.map */

@@ -1,8 +1,20 @@
+@use 'variables';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  
   html {
-    font-family: "Sniglet", cursive;
+    font-family: variables.$main-font;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
