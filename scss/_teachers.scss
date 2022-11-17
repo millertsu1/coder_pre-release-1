@@ -1,0 +1,29 @@
+@use 'variables';
+
+/* ===Styles Teachers Webpage=== */
+
+.main__teachers, .courses__bg {
+    background-color: variables.$palette-color4;
+  }
+  
+  .text {
+    .teachers__title, .teachers__paragraph {
+      color: variables.$palette-color1;
+    }
+  }
+  
+  .courses__offer {
+    color: variables.$palette-color1;
+  
+    h2 {
+      color: variables.$palette-color1;
+    }
+  }
+  
+  .course__img .img__teacher {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  

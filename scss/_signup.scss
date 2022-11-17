@@ -1,0 +1,50 @@
+@use 'variables';
+
+.signup__form {
+    background-image: url(/images/icons/wave__signup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: variables.$palette-color3;
+  }
+  
+  .form__register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px variables.$palette-color2;
+  }
+  
+  .container__loginup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  
+    img {
+      width: 200px;
+    }
+  
+    h2 {
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+  
+  .container-inputs {
+    text-align: center;
+  }
+  
+  .container__loginup2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  
+    img {
+      width: 200px;
+      padding: 20px;
+      margin: 0;
+    }
+  }
+  

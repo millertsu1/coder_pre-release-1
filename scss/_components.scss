@@ -4,9 +4,8 @@
 /* -------------buttons------------- */
 
 @mixin button($border-radius, $font-size) {
-  align-self: center;
+
   padding: 10px 25px;
-  color: variables.$palette-color2;
   background-color: variables.$palette-color1;
   border-radius: $border-radius;
   border: 1px solid variables.$palette-color2;

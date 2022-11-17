@@ -1,4 +1,14 @@
+/* ===basics=== */
+
 @use 'reset';
 @use 'variables';
-@use 'index';
 @use 'components';
+
+/* ===pages=== */
+
+@use 'index';
+@use 'services';
+@use 'contact';
+@use 'teachers';
+@use 'signup';
+@use 'landing';
