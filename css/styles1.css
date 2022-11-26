@@ -9,6 +9,64 @@ html {
 }
 
 /* -------------buttons------------- */
+/* go to up button */
+.go-top-container {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 5.5rem;
+  height: 5, 5rem;
+  z-index: -1;
+}
+
+.go-top-button {
+  width: 0rem;
+  height: 0rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.go-top-button img {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.2s;
+}
+
+.show {
+  z-index: 10;
+}
+.show .go-top-button {
+  animation: popup 0.5s ease-in-out;
+  width: 4rem;
+  height: 4rem;
+  z-index: 11;
+}
+.show img {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+  0% {
+    width: 0rem;
+    height: 0rem;
+  }
+  50% {
+    width: 8rem;
+    height: 8rem;
+  }
+  100% {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
 /* ===Header Styles ===*/
 .selected {
   background-color: rgba(0, 0, 0, 0.2);
@@ -670,6 +728,9 @@ html {
 
 /* ===Desktop  Layout=== */
 @media (min-width: 1200px) {
+  .container__services {
+    margin: auto;
+  }
   .container__plans {
     flex-direction: row;
     padding: 10px;

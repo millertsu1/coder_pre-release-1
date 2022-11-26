@@ -134,6 +134,9 @@
 
 @media (min-width: 1200px){
 
+  .container__services {
+    margin: auto;
+  }
   .container__plans {
     flex-direction: row;
     padding: 10px;
