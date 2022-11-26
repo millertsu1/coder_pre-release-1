@@ -861,6 +861,7 @@ textarea {
 
 html {
   scroll-behavior: smooth;
+  font-family: "Sniglet", cursive;
 }
 
 .navbar-dark {
